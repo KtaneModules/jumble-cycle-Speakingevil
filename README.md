@@ -1,1 +1,1 @@
-# jumble-cycle
+#[ModKit Wiki](../../wiki)
