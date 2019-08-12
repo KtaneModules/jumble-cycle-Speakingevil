@@ -140,6 +140,7 @@ public class JumbleCycleScript : MonoBehaviour
                 usedvals.Add((8 * rot[0][i] + rot[0][i + 1]) % 26);
                 playkey[1].Add(playkey[0][(8 * rot[0][i] + rot[0][i + 1]) % 26]);
             }
+            roh[7] = rot[0][7].ToString();
             playkey[0].Remove("X");
             for (int i = 0; i < 25; i++)
             {
